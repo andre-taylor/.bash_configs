@@ -14,6 +14,6 @@ Useful References:
 <ul>
   <li><a href="http://tldp.org/LDP/Bash-Beginners-Guide/html/Bash-Beginners-Guide.html">bash scripting for beginners</a></li>
   <li><a href="http://tldp.org/LDP/abs/html/abs-guide.html">advanced bash scripting guide</a></li>
-  <li><a href="http://www.gnu.org/software/bash/manual/html_node/The-Shopt-Builtin.html">shell optional behavior</a></li>
+  <li><a href="http://www.gnu.org/software/bash/manual/html_node/The-Shopt-Builtin.html">shopt docs (shell optional behavior)</a></li>
   <li><a href="http://tldp.org/LDP/abs/html/sample-bashrc.html">example bash profile</a></li>
 </ul>
