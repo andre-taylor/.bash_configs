@@ -30,7 +30,8 @@ alias lm="ll | less"                        # Pipe through 'more'
 alias lr="ll -R"                            # Recursive ls.
 alias la="ll -A"                            # Show hidden files.
 
-
+alias sf='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app' # Show all files in Finder
+alias hf='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'  # Hide special files (dotfiles) in Finder
 #-------------------------------------------------------------
 # Directory aliases
 #-------------------------------------------------------------
