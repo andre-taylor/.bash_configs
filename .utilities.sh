@@ -122,6 +122,14 @@ function gmake () {
   fi
 }
 
+# Delete remote & local branch
+function gremove () {
+  if [ -n "$1" ]; then
+    git push origin --delete $1
+    git branch -D $1
+  fi
+}
+
 #-------------------------------------------------------------
 # Misc utilities:
 #-------------------------------------------------------------
