@@ -20,7 +20,8 @@ export LS_OPTIONS='--color=auto'
 export CLICOLOR=true
 export LSCOLORS=gxfxbEaEBxxEhEhBaDaCaD
 
-export PATH="${PATH}:${HOME}:${HOME}/bin:${HOME}/Library"
+export PATH=$PATH:${HOME}:${HOME}/bin:${HOME}/Library:${HOME}/.npm-packages/lib/node_modules/grunt/bin/:${HOME}/.rbenv/shims:${HOME}/.rbenv/bin
+
 export WORKFEED_DIR="${CONFIG_DIR_PROJECT_WORKFEED}"
 export YAMJS_HOME="${CONFIG_DIR_PROJECT_YAMJS}"
 export EDITOR="subl -w" # Make ST2 default editor. example: open README.md
@@ -41,3 +42,8 @@ export LESS='-i -N -w  -z-4 -g -e -M -X -F -R -P%t?f%f \
 
 # Bash Git Prompt configuration
 GIT_PROMPT_ONLY_IN_REPO=1
+
+#-------------------------------------------------------------
+# RBENV
+#-------------------------------------------------------------
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi

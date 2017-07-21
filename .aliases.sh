@@ -66,12 +66,3 @@ alias gpe="git_prompt_examples"
 alias gpc="git_prompt_color_samples"
 
 
-
-# git branch -d ataylor/YRI-321
-# git push origin --delete ataylor/YRI-321
-# git stash show -p stash@{0}
-
-# alias glog='git log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit --s'
-# alias gme='git log --stat --author=ataylor@yammer-inc.com --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit --s'
-# alias gmel='git log --stat --author=ataylor@yammer-inc.com'
-
