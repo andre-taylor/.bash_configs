@@ -65,4 +65,5 @@ alias gph="git_prompt_help"
 alias gpe="git_prompt_examples"
 alias gpc="git_prompt_color_samples"
 
-
+# JUMPHOST aliases
+alias sshlab='ssh -A -tq ${CONFIG_SSH_TEAMLABS} ssh $@'

@@ -20,7 +20,7 @@ export LS_OPTIONS='--color=auto'
 export CLICOLOR=true
 export LSCOLORS=gxfxbEaEBxxEhEhBaDaCaD
 
-export PATH=$PATH:${HOME}:${HOME}/bin:${HOME}/Library:${HOME}/.npm-packages/lib/node_modules/grunt/bin/:${HOME}/.rbenv/shims:${HOME}/.rbenv/bin
+export PATH=$PATH:${HOME}:${HOME}/bin:${HOME}/Library:${HOME}/.npm-packages/lib/node_modules/grunt/bin/:${HOME}/.rbenv/shims:${HOME}/.rbenv/bin:${HOME}/.npm-packages/bin/
 
 export WORKFEED_DIR="${CONFIG_DIR_PROJECT_WORKFEED}"
 export YAMJS_HOME="${CONFIG_DIR_PROJECT_YAMJS}"
