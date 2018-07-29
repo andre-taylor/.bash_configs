@@ -4,9 +4,9 @@ Inspired by Emmanuel Rouat - http://tldp.org/LDP/abs/html/sample-bashrc.html
 
 ```
 cd ~
-git clone --recursive https://github.com/foobonic/.bash_configs.git
-ln -s ~/.bash_configs/.bash_profile .bash_profile
-ln -s ~/.bash_configs/.bashrc .bashrc
+git clone --recursive git@github.com:foobonic/.bash_configs.git
+ln -s ~/.bash_configs/src/.bash_profile .bash_profile
+ln -s ~/.bash_configs/src/.bashrc .bashrc
 source ~/.bashrc && source ~/.bash_profile
 ```
 

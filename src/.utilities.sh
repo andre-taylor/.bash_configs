@@ -1,22 +1,6 @@
 #-------------------------------------------------------------
-# Hide/Show prompt
-#-------------------------------------------------------------
-
-# Hide prompt
-function hide_prompt () {
-  export OLD_PS1=$PS1
-  export PS1=""
-}
-
-# Hide prompt
-function show_prompt () {
-  export PS1=$OLD_PS1
-}
-
-#-------------------------------------------------------------
 # File & strings related functions:
 #-------------------------------------------------------------
-
 # Output a unique date string
 function datestr () {
   echo $(date +%Y%m%d-%H%M%S);

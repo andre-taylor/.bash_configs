@@ -1,7 +1,6 @@
 #-------------------------------------------------------------
 # BASH configuration
 #-------------------------------------------------------------
-
 shopt -s cdspell
 shopt -s cdable_vars
 shopt -s checkhash
@@ -15,22 +14,15 @@ shopt -s extglob
 #-------------------------------------------------------------
 # Env vars
 #-------------------------------------------------------------
-
 export LS_OPTIONS='--color=auto'
 export CLICOLOR=true
 export LSCOLORS=gxfxbEaEBxxEhEhBaDaCaD
-
-export PATH=$PATH:${HOME}:${HOME}/bin:${HOME}/Library:${HOME}/.npm-packages/lib/node_modules/grunt/bin/:${HOME}/.rbenv/shims:${HOME}/.rbenv/bin:${HOME}/.npm-packages/bin/
-
-export WORKFEED_DIR="${CONFIG_DIR_PROJECT_WORKFEED}"
-export YAMJS_HOME="${CONFIG_DIR_PROJECT_YAMJS}"
-export EDITOR="subl -w" # Make ST2 default editor. example: open README.md
+export PATH=$PATH:${HOME}:${HOME}/bin:${HOME}/Library
 export PS1="\[${yellow}\]\w${off}\n\[${white}\]$(date +%H:%M)${off} $ "
 
 #-------------------------------------------------------------
 # Tailoring 'less'
 #-------------------------------------------------------------
-
 export PAGER=less
 export LESSCHARSET='latin1'
 export LESS='-i -N -w  -z-4 -g -e -M -X -F -R -P%t?f%f \
@@ -39,11 +31,9 @@ export LESS='-i -N -w  -z-4 -g -e -M -X -F -R -P%t?f%f \
 #-------------------------------------------------------------
 # Git
 #-------------------------------------------------------------
-
-# Bash Git Prompt configuration
-GIT_PROMPT_ONLY_IN_REPO=1
+GIT_PROMPT_ONLY_IN_REPO=1 # Bash Git Prompt configuration
 
 #-------------------------------------------------------------
 # RBENV
 #-------------------------------------------------------------
-if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+#if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
