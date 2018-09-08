@@ -2,7 +2,9 @@
 # General aliases
 #-------------------------------------------------------------
 alias h="cd ~"                              # User home directory
-alias ..="cd .."                            # Shortcut
+alias ..="cd .."                            # Shortcut, go up one directory
+alias ...="cd ../.."                        # Shortcut, go up two directories
+alias ....="cd ../../.."                    # Shortcut, go up three directories
 alias p="cd -"                              # Previous directory
 alias c="clear"                             # Clear screen (pseudo)
 alias cc="source ${HOME}/.bash_profile"     # Reload BASH profile
@@ -37,9 +39,7 @@ alias pj="cd ${CONFIG_DIR_PROJECTS}"
 alias yc="cd ${CONFIG_DIR_PROJECT_YAMMER_CLIENTS}"
 alias yj="cd ${CONFIG_DIR_PROJECT_YAMJS}"
 alias yui="cd ${CONFIG_DIR_PROJECT_YAMUI}"
-alias yk="cd ${CONFIG_DIR_PROJECT_YAMIK}"
 alias wf="cd ${CONFIG_DIR_PROJECT_WORKFEED}"
-alias mle="cd ${CONFIG_DIR_PROJECT_MAILIE}"
 
 #-------------------------------------------------------------
 # GIT aliases

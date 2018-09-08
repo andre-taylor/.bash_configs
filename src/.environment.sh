@@ -18,6 +18,7 @@ export LS_OPTIONS='--color=auto'
 export CLICOLOR=true
 export LSCOLORS=gxfxbEaEBxxEhEhBaDaCaD
 export PATH=$PATH:${HOME}:${HOME}/bin:${HOME}/Library
+export CONFIG_DIR_TRASH=${HOME}/.Trash
 export PS1="\[${yellow}\]\w${off}\n\[${white}\]$(date +%H:%M)${off} $ "
 
 #-------------------------------------------------------------
@@ -32,8 +33,3 @@ export LESS='-i -N -w  -z-4 -g -e -M -X -F -R -P%t?f%f \
 # Git
 #-------------------------------------------------------------
 GIT_PROMPT_ONLY_IN_REPO=1 # Bash Git Prompt configuration
-
-#-------------------------------------------------------------
-# RBENV
-#-------------------------------------------------------------
-#if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
