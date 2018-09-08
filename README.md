@@ -1,6 +1,5 @@
 # .bash_configs
-BASH profile configuration - over arch'ed just for the hell of it
-Inspired by Emmanuel Rouat - http://tldp.org/LDP/abs/html/sample-bashrc.html
+BASH profile configuration. Inspired by Emmanuel Rouat - http://tldp.org/LDP/abs/html/sample-bashrc.html
 
 ```
 cd ~
